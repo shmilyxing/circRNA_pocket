@@ -1,7 +1,7 @@
 query_chrom=Chr5
 query_start_pos=21720831
 query_end_pos=21721274
-annotation_file=H:/d/annote/all.gff3
+annotation_file=../test_data/rice_data/annotation/all.gff3
 annotation_type=gff3
 color_type=3D
 output_dir=circRNA_pocket_pos_output
