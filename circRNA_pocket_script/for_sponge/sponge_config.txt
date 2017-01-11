@@ -1,10 +1,10 @@
 query_chrom=16
 query_start_pos=80684537
 query_end_pos=80685129
-annotation_file=/datacenter/disk2/database/tobacco/MSS/human-RNA/human_genome/hg38/Homo_sapiens.GRCh38.84.gff3
+annotation_file=../hg38/Homo_sapiens.GRCh38.84.gff3
 annotation_type=gff3
-gemone_reference=/datacenter/disk2/database/tobacco/MSS/human-RNA/human_genome/hg38/Homo_sapiens.GRCh38.dna.primary_assembly.fa
-mature_microRNA_file=/workcenters/workcenter4/zxc/test/microRNA_test/mature_hg.fa
+gemone_reference=../hg38/Homo_sapiens.GRCh38.dna.primary_assembly.fa
+mature_microRNA_file=../microRNA_test/mature_hg.fa
 microRNA_sponge_detection_software=RNAhybrid
 RNAhybrid-s=3utr_human
 RNAhybrid-p=0.01
