@@ -1,0 +1,23 @@
+Blue
+green_yellow
+10_4	5_5
+2_2
+show_UTR
+show_gene_direction
+show_mis
+show_gap
+0.8
+
+#1 the color of gene(Blue;Red;Yellow;Green;Purple;Brown;Grey;pink_white_blue;red_wood_gold;pink_white_blue;red_wood_gold;blue_red_green;blue_yellow_green)
+#2 the color of input sequences(Blue;Green;Yellow;Red;Purple;Brown;Grey;pink_blue;red_gold;blue_green;green_yellow;red_green;blue_yellow)
+#3 x1_y1 x2_y2,for circle format,if there is only one gene transcript,use x1_y1,or use x2_y2.x is the width of gene transcripts,y is the width between two transcripts(3 <= x1,x2 <= 10; 0 <= y2 <= 10;2 <= y1 <=6)
+for linear format,the x2_y2 could control the width and interval of gene transcripts.
+#4 x3_y3,x3 is the width of input sequences(1 <= x3 <= 5);y3 is the width between two sequences(1 <= y3 <= 5)
+#5 show UTR or not(show_UTR;no_UTR)(if you choose show_UTR,the color of CDS and UTR are different,or they are same.)
+#6 show gene direction or not(show_gene_direction;no_gene_direction)
+#7 show mismatch or not(show_mis;no_mis)
+#8 show gapopen or not(show_gap;no_gap)
+#9 x4,the radius of gene in the circle format(0.5 <= x4 <= 0.9)
+#Attention:
+#3 If there is more than one gene transcript and the number of gene transcript is n.(x2+y2)/50*n <= 90%
+#3#9 The number of input sequences is n.(x3+y3)/50*n <= (1.05-x4)

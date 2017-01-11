@@ -1,0 +1,13 @@
+Blue
+10_4	1_1
+unclockwise
+show_UTR
+show_gene_direction
+
+#1 the color of gene(Blue;Red;Yellow;Green;Purple;Brown;Grey;pink_white_blue;red_wood_gold;pink_white_blue;red_wood_gold;blue_red_green;blue_yellow_green)
+#2 x1_y1 x2_y2,for circle format,if there is only one gene transcript,use x1_y1,or use x2_y2.x is the width of gene transcripts,y is the width between two transcripts(2 <= x1 <= 10; 1 <= x2 <= 10; 0 < y2 <= 10; 2 <= y1 <=6)
+for linear format,the x2_y2 could control the width and interval of gene transcripts.
+#3 the direction of circle format(unclockwise;clockwise)
+#4 show UTR or not(show_UTR;no_UTR)(if you choose show_UTR,the color of CDS and UTR are different,or they are same.)
+#5 show gene direction or not(show_gene_direction;no_gene_direction)
+#3 If there is more than one gene transcript and the number of gene transcript is n.(x2+y2)/50*n <= 90%

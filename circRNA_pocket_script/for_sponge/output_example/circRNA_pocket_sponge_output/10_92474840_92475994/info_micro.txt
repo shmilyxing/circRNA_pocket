@@ -1,0 +1,9 @@
+transcript_ENST00000371581;2;57	23	1074	hsa-miR-346;75	24	1055	hsa-miR-2277-5p
+transcript_ENST00000265986;2;57	23	1074	hsa-miR-346;75	24	1055	hsa-miR-2277-5p
+---
+transcript_ENST00000371581:
+hsa-miR-346 hsa-miR-2277-5p
+
+transcript_ENST00000265986:
+hsa-miR-346 hsa-miR-2277-5p
+

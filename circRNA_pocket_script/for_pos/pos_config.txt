@@ -1,0 +1,15 @@
+query_chrom=Chr5
+query_start_pos=21720831
+query_end_pos=21721274
+annotation_file=H:/d/annote/all.gff3
+annotation_type=gff3
+color_type=3D
+output_dir=circRNA_pocket_pos_output
+
+#1 query_chrom,query chromosome
+#2 query_start_pos,query start position,0-base
+#3 query_end_pos,query end position
+#4 annotation_file,the direction of the genome annotation file
+#5 annotation_type,the type of the annotation file(gff3;gtf;refFlat)
+#6 color_type,the type of color(3D;2D)
+#7 output_dir,the direction of the output folder

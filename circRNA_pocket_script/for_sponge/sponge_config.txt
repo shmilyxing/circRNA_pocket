@@ -1,0 +1,32 @@
+query_chrom=16
+query_start_pos=80684537
+query_end_pos=80685129
+annotation_file=/datacenter/disk2/database/tobacco/MSS/human-RNA/human_genome/hg38/Homo_sapiens.GRCh38.84.gff3
+annotation_type=gff3
+gemone_reference=/datacenter/disk2/database/tobacco/MSS/human-RNA/human_genome/hg38/Homo_sapiens.GRCh38.dna.primary_assembly.fa
+mature_microRNA_file=/workcenters/workcenter4/zxc/test/microRNA_test/mature_hg.fa
+microRNA_sponge_detection_software=RNAhybrid
+RNAhybrid-s=3utr_human
+RNAhybrid-p=0.01
+RNAhybrid-e=35
+miranda-en=-30
+miranda-sc=150
+color_type=3D
+output_dir=circRNA_pocket_sponge_output
+
+
+#1 query_chrom,query chromosome
+#2 query_start_pos,query start position,0-base
+#3 query_end_pos,query end position
+#4 annotation_file,the direction of the annotation file
+#5 annotation_type,the type of the annotation file(gff3;gtf;refFlat)
+#6 gemone_reference,the direction of gemone reference(*.fa)
+#7 mature_microRNA_file,mature microRNA sequence file(*.fa)
+#8 microRNA_sponge_detection_software,the software used to detect microRNA sponge (RNAhybrid;miranda)
+#9 RNAhybrid-s,the option -s of RNAhybrid(3utr_fly;3utr_worm;3utr_human)
+#10 RNAhybrid-p,the option -p of RNAhybrid,p-value cut-off(0<p<1)
+#11 RNAhybrid-e,the option -e of RNAhybrid,energy cut-off(e>0)
+#12 miranda-en,the option -en of miranda,Set energy threshold to -E kcal/mol(en<0)
+#13 miranda-sc,the option -sc of miranda,Set score threshold to S(DEFAULT: 140.0,sc>0)
+#14 color_type,the type of color(3D;2D)
+#15 output_dir,the direction of the output folder

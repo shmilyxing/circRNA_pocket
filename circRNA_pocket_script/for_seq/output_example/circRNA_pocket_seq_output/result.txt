@@ -1,0 +1,6 @@
+Seq3
+circle_pos	Chr5_3617186_3617467	226
+Seq1
+circle_pos	Chr5_3617186_3617467	212.4
+Seq2
+circle_pos	Chr5_3617186_3617467	154.8

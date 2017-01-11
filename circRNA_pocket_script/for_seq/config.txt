@@ -1,0 +1,15 @@
+blast_database=F:/d/circRNA_pocket_12_19/Release/database/all.fa
+annotation_file=F:/d/annote/all.gff3
+annotation_type=gff3
+input_query_sequence_file=input_seq.fa
+color_type=3D
+output_dir=circRNA_pocket_seq_output
+max_dis=5000
+
+#1 blast_database,the direction of the database made by makeblastdb(*.fa)
+#2 annotation_file,the direction of the annotation file
+#3 annotation_type,the type of the annotation file(gff3;gtf;refFlat)
+#4 input_query_sequence_file,the direction of the input file(*.fa)
+#5 color_type,the type of color(3D;2D)
+#6 output_dir,the direction of the output folder
+#7 max_dis,the maximum range of the two ends of the junction(for plant,5000;for animal,50000)

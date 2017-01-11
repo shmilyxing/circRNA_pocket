@@ -1,0 +1,26 @@
+query_chrom=10
+query_start_pos=92474840
+query_end_pos=92475994
+annotation_file=/datacenter/disk2/database/tobacco/MSS/human-RNA/human_genome/hg38/Homo_sapiens.GRCh38.84.gff3
+annotation_type=gff3
+gemone_reference=/datacenter/disk2/database/tobacco/MSS/human-RNA/human_genome/hg38/Homo_sapiens.GRCh38.dna.primary_assembly.fa
+microRNA_sponge_detection_software=RNAhybrid
+RNAhybrid-s=3utr_human
+RNAhybrid-p=0.01
+RNAhybrid-e=35
+color_type=3D
+output_dir=circRNA_pocket_sponge_output
+
+
+#1 query_chrom,query chromosome
+#2 query_start_pos,query start position,0-base
+#3 query_end_pos,query end position
+#4 annotation_file,the direction of the annotation file
+#5 annotation_type,the type of the annotation file(gff3;gtf;refFlat)
+#6 gemone_reference,the direction of gemone reference(xxx.fa)
+#7 microRNA_sponge_detection_software,the software used to detect microRNA sponge (RNAhybrid;miranda)
+#8 RNAhybrid-s,the option -s of RNAhybrid(3utr_fly;3utr_worm;3utr_human)
+#9 RNAhybrid-p,the option -p of RNAhybrid,p-value cut-off(0<p<1)
+#10 RNAhybrid-e,the option -e of RNAhybrid,energy cut-off(e>0)
+#11 color_type,the type of color(3D;2D)
+#12 output_dir,the direction of the output folder
