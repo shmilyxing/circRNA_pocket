@@ -1,5 +1,5 @@
-blast_database=F:/d/circRNA_pocket_12_19/Release/database/all.fa
-annotation_file=F:/d/annote/all.gff3
+blast_database=../test_data/rice_data/all.fa
+annotation_file=../test_data/rice_data/annotation/all.gff3
 annotation_type=gff3
 input_query_sequence_file=input_seq.fa
 color_type=3D
